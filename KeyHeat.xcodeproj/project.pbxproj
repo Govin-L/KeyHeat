@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA0000000000000000000201 /* KeyHeatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000110 /* KeyHeatApp.swift */; };
+		AA0000000000000000000202 /* KeyLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000111 /* KeyLayout.swift */; };
+		AA0000000000000000000203 /* DailyKeyUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000112 /* DailyKeyUsage.swift */; };
+		AA0000000000000000000204 /* UsageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000113 /* UsageStore.swift */; };
+		AA0000000000000000000205 /* KeyboardMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000114 /* KeyboardMonitor.swift */; };
+		AA0000000000000000000206 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000115 /* AppModel.swift */; };
+		AA0000000000000000000207 /* HeatmapWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000116 /* HeatmapWindow.swift */; };
+		AA0000000000000000000208 /* KeyboardHeatmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000117 /* KeyboardHeatmapView.swift */; };
+		AA0000000000000000000209 /* PeriodSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000118 /* PeriodSummaryView.swift */; };
+		AA0000000000000000000212 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000119 /* SettingsView.swift */; };
+		AA0000000000000000000210 /* KeyLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000120 /* KeyLayoutTests.swift */; };
+		AA0000000000000000000211 /* UsageStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000121 /* UsageStoreTests.swift */; };
+		AA0000000000000000000213 /* PeriodAndEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000122 /* PeriodAndEventTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA0000000000000000000500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA0000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA0000000000000000000010;
+			remoteInfo = KeyHeat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA0000000000000000000100 /* KeyHeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyHeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000000000000000000101 /* KeyHeatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyHeatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000000000000000000110 /* KeyHeatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyHeatApp.swift; sourceTree = "<group>"; };
+		AA0000000000000000000111 /* KeyLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyLayout.swift; sourceTree = "<group>"; };
+		AA0000000000000000000112 /* DailyKeyUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyKeyUsage.swift; sourceTree = "<group>"; };
+		AA0000000000000000000113 /* UsageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageStore.swift; sourceTree = "<group>"; };
+		AA0000000000000000000114 /* KeyboardMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardMonitor.swift; sourceTree = "<group>"; };
+		AA0000000000000000000115 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		AA0000000000000000000116 /* HeatmapWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapWindow.swift; sourceTree = "<group>"; };
+		AA0000000000000000000117 /* KeyboardHeatmapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHeatmapView.swift; sourceTree = "<group>"; };
+		AA0000000000000000000118 /* PeriodSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodSummaryView.swift; sourceTree = "<group>"; };
+		AA0000000000000000000119 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AA0000000000000000000120 /* KeyLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyLayoutTests.swift; sourceTree = "<group>"; };
+		AA0000000000000000000121 /* UsageStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageStoreTests.swift; sourceTree = "<group>"; };
+		AA0000000000000000000122 /* PeriodAndEventTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodAndEventTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA0000000000000000000022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0000000000000000000025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA0000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000004 /* KeyHeat */,
+				AA0000000000000000000005 /* KeyHeatTests */,
+				AA0000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000100 /* KeyHeat.app */,
+				AA0000000000000000000101 /* KeyHeatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000004 /* KeyHeat */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000110 /* KeyHeatApp.swift */,
+				AA0000000000000000000111 /* KeyLayout.swift */,
+				AA0000000000000000000112 /* DailyKeyUsage.swift */,
+				AA0000000000000000000113 /* UsageStore.swift */,
+				AA0000000000000000000114 /* KeyboardMonitor.swift */,
+				AA0000000000000000000115 /* AppModel.swift */,
+				AA0000000000000000000116 /* HeatmapWindow.swift */,
+				AA0000000000000000000117 /* KeyboardHeatmapView.swift */,
+				AA0000000000000000000118 /* PeriodSummaryView.swift */,
+				AA0000000000000000000119 /* SettingsView.swift */,
+			);
+			path = KeyHeat;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000005 /* KeyHeatTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000120 /* KeyLayoutTests.swift */,
+				AA0000000000000000000121 /* UsageStoreTests.swift */,
+				AA0000000000000000000122 /* PeriodAndEventTests.swift */,
+			);
+			path = KeyHeatTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA0000000000000000000010 /* KeyHeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0000000000000000000401 /* Build configuration list for PBXNativeTarget "KeyHeat" */;
+			buildPhases = (
+				AA0000000000000000000020 /* Sources */,
+				AA0000000000000000000022 /* Frameworks */,
+				AA0000000000000000000021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyHeat;
+			productName = KeyHeat;
+			productReference = AA0000000000000000000100 /* KeyHeat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA0000000000000000000011 /* KeyHeatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0000000000000000000402 /* Build configuration list for PBXNativeTarget "KeyHeatTests" */;
+			buildPhases = (
+				AA0000000000000000000023 /* Sources */,
+				AA0000000000000000000025 /* Frameworks */,
+				AA0000000000000000000024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA0000000000000000000501 /* PBXTargetDependency */,
+			);
+			name = KeyHeatTests;
+			productName = KeyHeatTests;
+			productReference = AA0000000000000000000101 /* KeyHeatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					AA0000000000000000000010 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					AA0000000000000000000011 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = AA0000000000000000000010;
+					};
+				};
+			};
+			buildConfigurationList = AA0000000000000000000400 /* Build configuration list for PBXProject "KeyHeat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA0000000000000000000002;
+			productRefGroup = AA0000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA0000000000000000000010 /* KeyHeat */,
+				AA0000000000000000000011 /* KeyHeatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA0000000000000000000021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0000000000000000000024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA0000000000000000000020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000000000000000000201 /* KeyHeatApp.swift in Sources */,
+				AA0000000000000000000202 /* KeyLayout.swift in Sources */,
+				AA0000000000000000000203 /* DailyKeyUsage.swift in Sources */,
+				AA0000000000000000000204 /* UsageStore.swift in Sources */,
+				AA0000000000000000000205 /* KeyboardMonitor.swift in Sources */,
+				AA0000000000000000000206 /* AppModel.swift in Sources */,
+				AA0000000000000000000207 /* HeatmapWindow.swift in Sources */,
+				AA0000000000000000000208 /* KeyboardHeatmapView.swift in Sources */,
+				AA0000000000000000000209 /* PeriodSummaryView.swift in Sources */,
+				AA0000000000000000000212 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0000000000000000000023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000000000000000000210 /* KeyLayoutTests.swift in Sources */,
+				AA0000000000000000000211 /* UsageStoreTests.swift in Sources */,
+				AA0000000000000000000213 /* PeriodAndEventTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA0000000000000000000501 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA0000000000000000000010 /* KeyHeat */;
+			targetProxy = AA0000000000000000000500 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA0000000000000000000300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		AA0000000000000000000301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		AA0000000000000000000302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+					GENERATE_INFOPLIST_FILE = YES;
+					INFOPLIST_KEY_CFBundleDisplayName = "键盘热力图";
+					INFOPLIST_KEY_LSUIElement = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.KeyHeat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		AA0000000000000000000303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+					GENERATE_INFOPLIST_FILE = YES;
+					INFOPLIST_KEY_CFBundleDisplayName = "键盘热力图";
+					INFOPLIST_KEY_LSUIElement = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.KeyHeat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		AA0000000000000000000304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.KeyHeatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyHeat.app/Contents/MacOS/KeyHeat";
+			};
+			name = Debug;
+		};
+		AA0000000000000000000305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.KeyHeatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyHeat.app/Contents/MacOS/KeyHeat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA0000000000000000000400 /* Build configuration list for PBXProject "KeyHeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000300 /* Debug */,
+				AA0000000000000000000301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0000000000000000000401 /* Build configuration list for PBXNativeTarget "KeyHeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000302 /* Debug */,
+				AA0000000000000000000303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0000000000000000000402 /* Build configuration list for PBXNativeTarget "KeyHeatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000304 /* Debug */,
+				AA0000000000000000000305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA0000000000000000000001 /* Project object */;
+}
